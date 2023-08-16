@@ -1,0 +1,662 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* in the style of antoine blanchard,realistic 16k , --ar 16:9 --v 5 --s 1000 */
+body{
+    /* background-color: black; */
+    color: rgb(0, 0, 0);
+    /* background-color: #D4BBFC; */
+}
+html{
+    scroll-behavior: smooth;
+
+}
+
+header{
+    
+}
+
+header nav{
+    box-shadow: 0 5px 10px #D4BBFC;
+    z-index: 9999;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    background-color: white;
+}
+.navigationbaar h1{
+    font-size: 30px;
+    margin: 0px;
+    padding: 20px;
+    float: left;
+    color: black;
+    
+}
+.navigationbaar i{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+nav ul{
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #f2f1f3;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-items: flex-end;
+    float: right;
+    background-color: black;
+    color: white;
+    margin: 30px;
+}
+nav ul li{
+    cursor: pointer;
+    padding: 20px;
+    display: inline-block;
+}
+nav a:hover{
+    color: rgb(0, 64, 255);
+}
+.nav-bar i{
+    margin: 5px;
+    color: #f162f9;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+/* mainsection */
+.secoundmainsection{
+    /* height: 750px; */
+    width: 100%;
+    /* background-image: url(/img/kingbhai302_Holi_Holi_is_a_traditional_Hindu_festival_that_cele_5e4cf3f4-92ff-49cf-9752-c29220a30693.png); */
+}
+
+.samemainsectionleft{
+   
+    width: 50%;
+    float: right;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: #000000; */
+    
+}
+
+
+
+
+
+
+
+.stylishscrolling{
+    
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/kingbhai302_indian_map_and_in_map_show_indian_cluture_16k_high__4ff73bd3-d51c-4471-a1f2-66893d92b923.png);
+}
+
+.samemainsectionright{
+    color: black;
+    background-color: #f5f1ef;
+    /* height: 650px; */
+    
+}
+.samemainsectionright h2{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+    padding-top: 40px;
+}
+.samemainsectionright p{
+    margin: 20px;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+}
+.anotherinmainsection{
+    color: white;
+    background-image: url(/);
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(/img/Untitled\ design\ \(2\).png); */
+
+    height: 100vh;
+    /* background-image: url(/New-file.gif); */
+}
+.writesomedata{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+}
+.writesomedata h1{
+    font-size: 40px;
+}
+.mainpagedata{
+    color: black;
+    /* width: 60%; */
+    /* float: left; */
+}
+.mainpagedata h1{
+    color: red;
+}
+.mainpageimg{
+    width: 100%;
+    height: 750px;
+    background-image: url(/img/Untitled\ design\ \(3\).png);
+}
+
+
+
+/* secound section */
+.secoundonemainsection{
+    /* background-image: url(/img/kingbhai302_realistic_16k_gujrat_in_india_taken_on_a_Canon_EOS__5a49f5da-d3d6-4d62-b3cf-0ae5ee70eb90.png); */
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-color: #999795;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/IndiaFieldSeminar.gif);
+    background-repeat: no-repeat;
+}
+.secoundonemainsectiontosecound{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    width: 95%;
+}
+.secoundonemainsectiontosecound li:hover{
+/* color: blue; */
+cursor: pointer;
+}
+
+.leftofmainforem{
+    width: 50%;
+    float: left;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.leftofmainforem ol{
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
+.leftofmainforem ol li{
+    padding: 30px;
+}
+.leftofmainforem ol li a{
+    text-decoration: none;
+    color: white;
+}
+.leftofmainforem ol li a:hover{
+    color: #f162f9;
+}
+
+.rightofmainforem{
+    width: 50%;
+    float: left;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.rightofmainforem ol{
+    padding: 30px;
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
+.rightofmainforem ol li{
+    padding: 30px;
+    text-decoration: none;
+    background-color: black;
+}
+.rightofmainforem ol li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.rightofmainforem ol li a:hover{
+    color: #f162f9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main section work */
+   /* cultural phots */
+   .startourculturephoto{
+    width: 100%;
+    height: 100vh;
+}
+.seperateculturalphoto{
+    background-image: url(/img/kingbhai302_Family_values_Family_is_considered_the_most_importa_c173d150-fff5-4097-8394-ef5cb09da3b6.png);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.seperateculturalphoto h1{
+    color: white;
+}
+.seperatedivfordata{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+    
+}
+.seperatedivfordatatext{
+    width: 50%;
+    float: left;
+}
+.videoseperatedivfordata{
+    width: 40%;
+    height: 400px;
+    float: right;
+    background-image: url(/img/kingbhai302_there_are_some_people_standing_there_all_from_diffe_d3e27dd2-ea5e-4d18-a813-6100ac3471a8.png);
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+
+/* secound */
+.startourculturephototwo{
+    width: 100%;
+    height: 700px;
+}
+.seperateculturalphototwo{
+    background-image: url(/img/kingbhai302_We_are_a_small_family_people_are_asking_God_for_som_b816321f-0e53-4c00-a1db-3d3b63f61512.png);
+    height: 200px;
+    /* background-position: center;
+    
+     */
+     background-size: cover;
+     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.seperateculturalphototwo h1{
+    color: rgb(0, 0, 0);
+}
+
+.secoundcultureleftside{
+    /* background-color: white; */
+    width: 60%;
+    height: 400px;
+    float: right;
+}
+.secoundcultureleftside p{
+    /* background-color: black; */
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+    
+}
+.secoundculturerightside{
+    width: 40%;
+    height: 400px;
+    float: left;
+    background-color: black;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-image: url(/img/kingbhai302_Philosophy_and_spirituality_India_has_a_rich_philos_cb5c749f-f51c-4110-8f47-fc86404ecc5f.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* thried  */
+.startourculturephotothree{
+    width: 100%;
+    height: auto;
+}
+.seperateculturalphototree{
+    background-image: url(/img/kingbhai302_Festivals_India_is_known_for_its_colorful_and_vibra_ac21a776-cefa-4f79-8017-d2eb0f2383f7.png);
+    height: 200px;
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.seperateculturalphototree h1{
+    color: rgb(255, 255, 255);
+}
+.seperatedivfordata{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+}
+.seperatedivfordatathree{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+    height: auto;
+}
+.seperatedivfordatathree h2{
+    color: white;
+   
+}
+.feshtivalphoto{
+    padding: 20px;
+}
+.feshtivalphoto h1{
+    font-size: 20px;
+}
+.feshtivalphoto p{
+    padding: 5px;
+}
+.thiredimage{
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-image: url(/img/kingbhai302_Festivals_India_is_known_for_its_colorful_and_vibra_ac21a776-cefa-4f79-8017-d2eb0f2383f7.png);
+}
+
+
+/* fourth */
+.startourculturephotofourth{
+    width: 100%;
+    height: auto;
+}
+.seperateculturalphotofourth{
+    background-image: url(/img/kingbhai302_Cuisine_Indian_cuisine_is_famous_for_its_use_of_spi_4a140c82-c3dc-4d23-8f97-57995eb15464.png);
+    height: 350px;
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.seperateculturalphotofourth h1{
+    color: rgb(255, 255, 255);
+}
+.seperatedivfordata{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+}
+.seperatedivfordatafourth{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+}
+.seperatedivfordatafourth p{
+    padding: 5px;
+}
+
+
+/* fifth */
+.startourculturephotofifth{
+    width: 100%;
+    height: auto;
+    
+}
+.seperateculturalphotofifth{
+    background-image: url(/img/kingbhai302_Arts_and_crafts_Indian_culture_has_a_rich_tradition_01426979-c70f-4db6-be49-906b321ba533.png);
+    height: 200px;
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.seperateculturalphotofifth h1{
+    color: rgb(255, 255, 255);
+}
+.seperatedivfordata{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+    
+}
+.seperatedivfordatafifth{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+
+}
+.fifthcultortxt{
+    background-image: url(/img/kingbhai302_Arts_and_crafts_Indian_culture_has_a_rich_tradition_01426979-c70f-4db6-be49-906b321ba533.png);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    width: 40%;
+    height: 300px;
+    float: left;
+    margin: 15px;
+}
+.fifthpost p{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+    padding: 5px;
+}
+/* six */
+.startourculturephotosix{
+    width: 100%;
+    height: auto;
+    
+}
+.seperateculturalphotosix{
+    background-image: url(/img/kingbhai302_Music_and_dance_Music_and_dance_are_integral_parts__f58e0e51-5d4a-4758-82a4-11dcc31d458f.png);
+    height: 200px;
+    /* background-position: center; */
+     background-size: cover;
+     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.seperateculturalphotosix h1{
+    color: rgb(255, 255, 255);
+}
+.seperatedivfordata{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+}
+.sixpost{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 40%;
+    float: right;
+    background-image: url(/img/kingbhai302_Music_and_dance_Music_and_dance_are_integral_parts__f58e0e51-5d4a-4758-82a4-11dcc31d458f.png);
+    height: 400px;
+}
+.sixtext p{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+}
+/* seven */
+.startourculturephotoseven{
+    width: 100%;
+    height: auto;
+}
+.seperateculturalphotoseven{
+    
+    background-image: url(/img/kingbhai302_Philosophy_and_spirituality_India_has_a_rich_philos_bfd7227e-76a2-480e-bee5-666b0aec6a8d.png);
+    height: 200px;
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.seperateculturalphotoseven h1{
+    color: rgb(255, 255, 255);
+}
+.seperatedivfordata{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+}
+.seperatedivfordataseven{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+}
+.Philosophytxt{
+    
+    margin: 10px;
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+    background-image: url(/img/kingbhai302_Jay_Shree_Ram_is_a_common_phrase_used_by_Hindus_in__fb227e2b-0752-4a1d-b85c-baed67aadef8.png);
+    width: 40%;
+    float: left;
+    height: 400px;
+
+}
+.Philosophytxt p{
+    
+    padding: 10px;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+
+
+
+
+
+
+
+/* media @media screen and (min-width: 480px) */
+@media screen and (width: 375px){
+    .nav-bar li{
+        font-size: 12px;
+    }
+    .nav-bar li{ 
+        padding: 0px;
+    }
+    .nav-bar{
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
+/* footer */
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 400px;
+    background-image: url(/kingbhai302_realistic_16k_R5_F1.2_ISO100_35MM_22de5ef5-ef78-4407-924f-3caa0f872297.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.anotherfooter{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+.logofooter{
+    width: 30%;
+    padding: 25px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+}
+.logoourcompay{
+    color: white;
+   
+    /* height: 300px; */
+}
+.logoicon{
+    /* justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 300px; */
+}
+.logoicon ul li{
+list-style: none;
+font-size: 30px;
+display: inline-block;
+}
+.insta{
+color: pink;
+}
+.facebook{
+    color: blue;
+}
+.youtube{
+    color: red;
+}
+.twitter{
+color: rgb(109, 109, 246);
+}
+
+.imageoffooter{
+    background-image: url(/img/4240.jpg);
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 300px;
+}
+
+.pagesforword{
+    list-style: none;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 10px;
+}
+.pagesforword ul li{
+    list-style: none;
+}
+.pagesforword ul li a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.pagesforword ul li a:hover{
+    color: #0800ff;
+}
